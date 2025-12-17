@@ -24,12 +24,3 @@ A tiny, no-frills age calculator I made for quick use. Pick your birth date, cli
 ## Troubleshooting
 - If nothing happens, make sure JavaScript is enabled in your browser (it usually is by default).
 - If the date you entered is in the future, you’ll see an error asking you to choose a valid date.
-
-## Ideas you might like next
-- Add a “Next birthday” countdown
-- Show age with hours and minutes for more precision
-- Improve accessibility and add tests
-
----
-
-If you want, I can add any of the items above or tweak the wording to match your style — tell me which change you’d prefer and I’ll update it.
