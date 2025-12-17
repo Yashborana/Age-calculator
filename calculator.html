@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Age Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="dark">
+  <main class="calculator" role="application" aria-label="Age calculator">
+    <h1>Age Calculator</h1>
+
+    <label for="birth" class="sr-only">Date of birth</label>
+    <input id="birth" type="date" class="display" aria-label="Date of birth">
+
+    <div class="actions">
+      <button id="calc" class="btn">Calculate</button>
+      <button id="clear" class="btn" data-action="clear">Clear</button>
+    </div>
+
+    <div id="result" class="result" aria-live="polite">Enter your date of birth and click Calculate.</div>
+
+    <div class="theme-toggle">
+      <label><input id="themeToggle" type="checkbox"> Light theme</label>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
